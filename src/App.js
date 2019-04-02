@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Title from './title'
-import logo from './logo.svg';
+import Title from './title';
+import Square from './square';
+import Game from './game';
 import './App.css';
 
 class App extends Component {
@@ -9,9 +10,9 @@ class App extends Component {
         const name = "Joe"
         return (
         <div>
-            <Title name="Soggy" age="459"/>
-            <Title name="Mushy Pancake" age="697"/>
-            <Title name="Bird Jelly" age="2"/>
+            <Title />
+            <Game/>
+
         </div>
         )
     }

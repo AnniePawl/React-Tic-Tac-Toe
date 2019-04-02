@@ -5,8 +5,7 @@ class Title extends Component {
         const name = "Joe"
         return (
         <div>
-          <h1 className="test">{this.props.name}Hello Poo!</h1>
-          <p className="butter">{this.props.age}</p>
+          <h1 className="test">{this.props.name}Lets Play Tic Tac Toe!</h1>
         </div>
         )
     }
