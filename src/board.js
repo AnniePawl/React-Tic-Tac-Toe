@@ -2,7 +2,16 @@ import React, { Component } from 'react'
 
 import Square from './square'
 
-class Board extends React.Component {
+class Board extends Component {
+  constructor(props) {
+    super(props)
+    // this = {}
+    this.state = { // this = { state:{} }
+      // this = { state:{squares:[]} }
+      squares: Array(9).fill(null),
+    };
+  }
+
   renderSquare(i) {
     return <Square value={i} />;
   }
