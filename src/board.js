@@ -1,19 +1,25 @@
-import React, { Component } from 'react'
-
-import Square from './square'
+import React, { Component } from 'react';
+import Square from './Square';
 
 class Board extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     // this = {}
-    this.state = { // this = { state:{} }
+    this.state = {
+      // this = { state:{} }
       // this = { state:{squares:[]} }
       squares: Array(9).fill(null),
     };
   }
 
+  handleClick(i) {
+    const squares = this.state.squares.slice();
+    squares[i] = 'X';
+    this.setState({ squares });
+  }
+
   renderSquare(i) {
-    return <Square value={i} />;
+    return <Square value={this.state.squares[i]} onClick={() => this.handleClick(i)} />;
   }
 
   render() {
@@ -42,4 +48,4 @@ class Board extends Component {
   }
 }
 
-export default Board
+export default Board;
