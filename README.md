@@ -1,10 +1,11 @@
-# React Tic Tac Toe 
-A simple game of Tic Tac Toe implemented in React. </br>
-This project followed React's [Intro to React Tutorial](https://reactjs.org/tutorial/tutorial.html) and covered the fundamentals of:
+# Celestial Tic Tac Toe 
+![alt text](https://github.com/AnniePawl/React-Tic-Tac-Toe/blob/master/public/tic-tac-toe.png "Screenshot")
+
+A simple game of Tic Tac Toe implemented in **React**. </br>
+This project follows React's [Intro to React Tutorial](https://reactjs.org/tutorial/tutorial.html) and covers the fundamentals of:
 - Components 
 - Props
 - State
-
 -----------------------------------------------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
