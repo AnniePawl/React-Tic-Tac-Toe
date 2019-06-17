@@ -1,7 +1,6 @@
 // IMPORTS
 import React, { Component } from 'react';
 import Title from './Title';
-import Square from './Square';
 import Game from './Game';
 import './App.css';
 
