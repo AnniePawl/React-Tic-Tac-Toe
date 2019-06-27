@@ -1,8 +1,27 @@
+class Food {
+  constructor(color, tastiness) {
+    this.color = color;
+    this.tastiness = tastiness;
+  }
+}
 class Veggies {
   constructor(color, tastiness) {
     this.color = color;
     this.tastiness = tastiness;
   }
+}
+
+class Fruit {
+  constructor(color, tastiness) {
+    this.color = color;
+    this.tastiness = tastiness;
+  }
+}
+
+class Banana extends Fruit {
+  constructor(size);
+  super('yellow', 5);
+  this.size = size
 }
 
 class Pepper extends Veggies {

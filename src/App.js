@@ -4,17 +4,14 @@ import Title from './Title';
 import Game from './Game';
 import './App.css';
 
-class App extends Component {
-  // render method simply returns something
-  render() {
-    const name = 'Anna';
-    return (
-      <div>
-        <Title />
-        <Game />
-      </div>
-    );
-  }
+
+function App() {
+  return (
+    <div>
+      <Title />
+      <Game />
+    </div>
+  );
 }
 
 export default App;

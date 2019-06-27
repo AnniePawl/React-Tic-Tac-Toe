@@ -3,13 +3,14 @@ html {
   background: radial-gradient(ellipse at bottom, #141414 30%, #4b2e7c 70%);
   overflow: hidden;
 }
+
 body {
   font-family: 'Audiowide', cursive;
   margin: 20px;
 }
 
-ol,
-ul {
+ol,ul {
+  list-style-type: none;
   padding-left: 40px;
 }
 
@@ -41,6 +42,7 @@ h2 {
   color: white;
   background:#973499;
 }
+
 .board-row:after {
   clear: both;
   content: "";
@@ -88,41 +90,6 @@ h2 {
 .status {
   color: #d7d6db;
   font-size: 25px;
-}
-
-
-.App {
-  text-align: center;
-}
-
-/* .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 /* STARS */
@@ -178,7 +145,7 @@ h2 {
 }
 
 
-/* Animate Stars */
+/* Star Animations */
 @keyframes animStar {
   from {
     transform: translateY(0px);
